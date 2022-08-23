@@ -1,0 +1,80 @@
+/**h2{
+    color: yellow;
+ 
+
+}
+p {
+    color:blueviolet;
+    background-color:rgb(234,98,8)
+}
+body{
+    background-color: #000000;
+}**/
+
+
+h3 {
+    text-align: center;
+    font-weight: 200;
+    text-decoration: dotted underline;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+p {
+    font-weight: 700;
+    line-height: 2;
+}
+
+/***{
+        color:cyan**/
+h2,
+h3 {
+    color: mediumturquoise;
+}
+
+#logout {
+    color: red;
+}
+
+.tag {
+    color: brown;
+}
+
+
+p + h1{
+  color : #078788;  
+}
+
+.paracls{
+   color: blue;    
+}
+
+
+#paraId{
+    color: red !important;
+}
+input{
+    color:greenyellow
+}
+button:hover{
+    color:blueviolet;
+}
+p:hover{
+    text-decoration: overline;
+}
+button:active{
+    background-color: aqua;
+}
+h3::first-letter{
+    font-size: 50px;
+}
+p:selection{
+    color:yellow;
+}
+button{
+    background-color: magenta !important;
+}
+body{
+    background-color: blueviolet;
+}
